@@ -1,0 +1,11 @@
+example_data/EXAALT/yy.dat filter=lfs diff=lfs merge=lfs -text
+example_data/EXAALT/zz.dat filter=lfs diff=lfs merge=lfs -text
+example_data/Hurricane/QSNOWf48.dat filter=lfs diff=lfs merge=lfs -text
+example_data/CESM/CLDHGH_1_1800_3600.dat filter=lfs diff=lfs merge=lfs -text
+example_data/CESM/CLDLOW_1_1800_3600.dat filter=lfs diff=lfs merge=lfs -text
+example_data/EXAALT/vx.dat filter=lfs diff=lfs merge=lfs -text
+example_data/EXAALT/vz.dat filter=lfs diff=lfs merge=lfs -text
+example_data/EXAALT/xx.dat filter=lfs diff=lfs merge=lfs -text
+example_data/CESM/FREQSH_1_1800_3600.dat filter=lfs diff=lfs merge=lfs -text
+example_data/EXAALT/vy.dat filter=lfs diff=lfs merge=lfs -text
+example_data/Hurricane/Uf48.dat filter=lfs diff=lfs merge=lfs -text
