@@ -7,7 +7,7 @@ spack:
   packages:
     all:
       target: [x86_64]
-  specs: [libpressio-tools+sperr+tthresh ^hdf5~mpi ^libpressio+sz+sz3+zfp+qoz+mgard ^ zfp@1.0.0, qcat, cmake]
+  specs: [libpressio-tools+sperr+tthresh+lc ^hdf5~mpi ^libpressio+sz+sz3+zfp+qoz+mgard ^ zfp@1.0.0, qcat, cmake]
   view: true
   concretizer:
     unify: true

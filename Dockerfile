@@ -1,6 +1,7 @@
 from ubuntu:20.04 as builder
 
 RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+    rm -f /etc/apt/apt.conf.d/docker-clean && \
     apt-get update -y && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y  patchelf build-essential ca-certificates coreutils curl environment-modules gfortran git gpg lsb-release file python3 python3-dev python3-distutils python3-venv unzip zip sudo && \
     groupadd demo && \
